@@ -15,13 +15,13 @@ class _ButtonCreateBoxState extends State<ButtonCreateBox> {
       height: 80,
       decoration: BoxDecoration(
         border: Border.all(
-          color: Color(0xFF3A4801),
+          color: const Color(0xFF3A4801),
           width: 1.0, // 1px
         ),
         gradient: LinearGradient(
           begin: Alignment.centerLeft,
           end: Alignment.centerRight,
-          colors: [Color(0xFFF1D5AE), Color(0xFFDBB77F), Color(0xFFDFB983)],
+          colors: [const Color(0xFFF1D5AE), const Color(0xFFDBB77F), const Color(0xFFDFB983)],
           stops: [0.0, 0.5564, 1.0],
         ),
       ),
@@ -31,17 +31,17 @@ class _ButtonCreateBoxState extends State<ButtonCreateBox> {
           height: 40,
           decoration: BoxDecoration(
             border: Border.all(
-              color: Color(0xFF3A4801),
+              color: const Color(0xFF3A4801),
               width: 2.0, // 1px
             ),
             gradient: LinearGradient(
               begin: Alignment.centerLeft,
               end: Alignment.centerRight,
-              colors: [Color(0xFFF1D5AE), Color(0xFFDBB77F), Color(0xFFDFB983)],
+              colors: [const Color(0xFFF1D5AE), const Color(0xFFDBB77F), const Color(0xFFDFB983)],
               stops: [0.0, 0.5564, 1.0],
             ),
           ),
-          child: Icon(Icons.add, color: Color(0xFF4E0F19), size: 36),
+          child: Icon(Icons.add, color: const Color(0xFF4E0F19), size: 36),
         ),
       ),
     );

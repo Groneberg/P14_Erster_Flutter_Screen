@@ -19,7 +19,7 @@ class _ListElementState extends State<ListElement> {
       padding: EdgeInsets.symmetric(horizontal: 24),
       decoration: BoxDecoration(
         border: Border.all(
-          color: Color(0xFF3A4801),
+          color: const Color(0xFF3A4801),
           width: 1.0, // 1px
         ),
       ),
@@ -30,7 +30,7 @@ class _ListElementState extends State<ListElement> {
             children: [
               Icon(
                 Icons.check_box_outline_blank,
-                color: Color(0xFF4E0F19),
+                color: const Color(0xFF4E0F19),
                 size: 32,
               ),
               SizedBox(width: 16),
@@ -41,7 +41,7 @@ class _ListElementState extends State<ListElement> {
                   style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.w400,
-                    color: Color(0xFF4E0F19),
+                    color: const Color(0xFF4E0F19),
                   ),
                 ),
               ),
@@ -51,9 +51,9 @@ class _ListElementState extends State<ListElement> {
                   spacing: 16,
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Icon(Icons.edit, color: Color(0xFF4E0F19), size: 24),
+                    Icon(Icons.edit, color: const Color(0xFF4E0F19), size: 24),
                     // SizedBox(width: 16,),
-                    Icon(Icons.delete, color: Color(0xFF4E0F19), size: 24),
+                    Icon(Icons.delete, color: const Color(0xFF4E0F19), size: 24),
                   ],
                 ),
               ),
@@ -70,7 +70,7 @@ class _ListElementState extends State<ListElement> {
                   style: TextStyle(
                     fontSize: 12,
                     fontWeight: FontWeight.w400,
-                    color: Color(0xFF4E0F19),
+                    color: const Color(0xFF4E0F19),
                   ),
                 ),
               ),
@@ -83,7 +83,7 @@ class _ListElementState extends State<ListElement> {
                   style: TextStyle(
                     fontSize: 12,
                     fontWeight: FontWeight.w400,
-                    color: Color(0xFF4E0F19),
+                    color: const Color(0xFF4E0F19),
                   ),
                 ),
               ),
@@ -94,7 +94,7 @@ class _ListElementState extends State<ListElement> {
                   style: TextStyle(
                     fontSize: 12,
                     fontWeight: FontWeight.w400,
-                    color: Color(0xFF4E0F19),
+                    color: const Color(0xFF4E0F19),
                   ),
                 ),
               ),
@@ -106,7 +106,7 @@ class _ListElementState extends State<ListElement> {
                   style: TextStyle(
                     fontSize: 12,
                     fontWeight: FontWeight.w400,
-                    color: Color(0xFF4E0F19),
+                    color: const Color(0xFF4E0F19),
                   ),
                 ),
               ),

@@ -15,20 +15,20 @@ class _SearchBarState extends State<CustomSearchBar> {
       height: 48,
       padding: EdgeInsets.symmetric(horizontal: 24),
       decoration: BoxDecoration(
-        color: Color(0xFFFAFAFA),
+        color: const Color(0xFFFAFAFA),
         gradient: LinearGradient(
           begin: Alignment.centerLeft,
           end: Alignment.centerRight,
-          colors: [Color(0xFFF1D5AE), Color(0xFFDBB77F), Color(0xFFDFB983)],
+          colors: [const Color(0xFFF1D5AE), const Color(0xFFDBB77F), const Color(0xFFDFB983)],
           stops: [0.0, 0.5564, 1.0],
         ),
         border: Border.all(
-          color: Color(0xFF3A4801),
+          color: const Color(0xFF3A4801),
           width: 1.0, // 1px
         ),
         // boxShadow: [
         //   BoxShadow(
-        //     color: Color(0xFFFAFAFA),
+        //     color: const Color(0xFFFAFAFA),
         //     offset: Offset(0, 0),
         //     blurRadius: 10.0,
         //     spreadRadius: 0.0,
@@ -44,7 +44,7 @@ class _SearchBarState extends State<CustomSearchBar> {
               style: TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.w400,
-                color: Color(0xFF4E0F19),
+                color: const Color(0xFF4E0F19),
               ),
               decoration: InputDecoration(
                 hintText: 'Search...',
@@ -52,8 +52,8 @@ class _SearchBarState extends State<CustomSearchBar> {
               ),
             ),
           ),
-          Container(width: 5, color: Color(0xFF000000)),
-          Icon(Icons.search, color: Color(0xFF4E0F19), size: 24),
+          Container(width: 5, color: const Color(0xFF000000)),
+          Icon(Icons.search, color: const Color(0xFF4E0F19), size: 24),
         ],
       ),
     );

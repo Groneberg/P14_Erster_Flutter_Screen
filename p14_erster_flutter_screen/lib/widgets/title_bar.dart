@@ -21,16 +21,16 @@ class TiTleBar extends StatelessWidget {
         gradient: LinearGradient(
           begin: Alignment.centerLeft,
           end: Alignment.centerRight,
-          colors: [Color(0xFF3A4801), Color(0xFF7D9200)],
+          colors: [const Color(0xFF3A4801), const Color(0xFF7D9200)],
           stops: [0.0, 1.0],
         ),
         border: Border.all(
-          color: Color(0xFF3A4801),
+          color: const Color(0xFF3A4801),
           width: 1.0, // 1px
         ),
         // boxShadow: [
         //   BoxShadow(
-        //     color: Color(0xFFFAFAFA),
+        //     color: const Color(0xFFFAFAFA),
         //     offset: Offset(0, 0),
         //     blurRadius: 10.0,
         //     spreadRadius: 0.0,
@@ -42,7 +42,7 @@ class TiTleBar extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           // TODO true => setBackIcon
-          if (setBackIcon) Icon(Icons.arrow_back_ios_new, color: Colors.white),
+          if (setBackIcon) Icon(Icons.arrow_back_ios_new, color: const Color(0xFFFAFAFA)),
           Expanded(
             child: Text(
               title,
@@ -52,7 +52,7 @@ class TiTleBar extends StatelessWidget {
                 fontFamily: 'Roboto',
                 fontSize: 32,
                 fontWeight: FontWeight.w700,
-                color: Color(0xFFFAFAFA),
+                color: const Color(0xFFFAFAFA),
               ),
             ),
           ),
@@ -60,7 +60,7 @@ class TiTleBar extends StatelessWidget {
             // TODO Icon einbinden SVG
             Icons.home,
             size: 32,
-            color: Color(0xFFFAFAFA),
+            color: const Color(0xFFFAFAFA),
           ),
         ],
       ),

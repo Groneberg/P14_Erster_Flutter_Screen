@@ -16,13 +16,13 @@ class _BottemNavBarState extends State<CustomBottemNavBar> {
       padding: EdgeInsets.symmetric(horizontal: 24),
       decoration: BoxDecoration(
         border: Border.all(
-          color: Color(0xFF3A4801),
+          color: const Color(0xFF3A4801),
           width: 1.0, // 1px
         ),
         gradient: LinearGradient(
           begin: Alignment.centerLeft,
           end: Alignment.centerRight,
-          colors: [Color(0xFFF1D5AE), Color(0xFFDBB77F), Color(0xFFDFB983)],
+          colors: [const Color(0xFFF1D5AE), const Color(0xFFDBB77F), const Color(0xFFDFB983)],
           stops: [0.0, 0.5564, 1.0],
         ),
       ),
@@ -30,7 +30,7 @@ class _BottemNavBarState extends State<CustomBottemNavBar> {
         spacing: 16,
         // mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Icon(Icons.home, color: Color(0xFF4E0F19), size: 32),
+          Icon(Icons.home, color: const Color(0xFF4E0F19), size: 32),
           Container(
             width: 16,
             height: 64,
@@ -38,7 +38,7 @@ class _BottemNavBarState extends State<CustomBottemNavBar> {
               gradient: LinearGradient(
                 begin: Alignment.centerLeft,
                 end: Alignment.centerRight,
-                colors: [Color(0xFF3A4801), Color(0xFF7D9200)],
+                colors: [const Color(0xFF3A4801), const Color(0xFF7D9200)],
                 stops: [0.0, 1.0],
               ),
             ),
@@ -51,7 +51,7 @@ class _BottemNavBarState extends State<CustomBottemNavBar> {
               gradient: LinearGradient(
                 begin: Alignment.centerLeft,
                 end: Alignment.centerRight,
-                colors: [Color(0xFF3A4801),Color(0xFF7D9200)],
+                colors: [const Color(0xFF3A4801),const Color(0xFF7D9200)],
                 stops: [0.0, 1.0],
               ),
             ),
@@ -59,7 +59,7 @@ class _BottemNavBarState extends State<CustomBottemNavBar> {
  
 
           // TODO vielleicht eigees svg für menu
-          Icon(Icons.menu, color: Color(0xFF4E0F19), size: 32),
+          Icon(Icons.menu, color: const Color(0xFF4E0F19), size: 32),
         ],
       ),
     );
